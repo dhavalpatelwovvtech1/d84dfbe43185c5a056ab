@@ -14,7 +14,7 @@ export default class App extends Component{
         <StatusBar backgroundColor='blue'/>
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Home} options={{title:'News',headerStyle:{backgroundColor:'blue'},headerTintColor:'white'}}/>
-          <Stack.Screen name="Details" component={Details} options={{title:'News',headerStyle:{backgroundColor:'blue'},headerTintColor:'white'}}/>
+          <Stack.Screen name="Details" component={Details} options={{title:'Detail',headerStyle:{backgroundColor:'blue'},headerTintColor:'white'}}/>
 
           </Stack.Navigator>
 
